@@ -24,7 +24,7 @@ jobs:
           version: 8
 
       - name: pnpm build
-        run: hugo --minify
+        run: pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
